@@ -21,6 +21,7 @@ function Footer() {
           <nav className="flex items-center gap-4">
             <a
               href=""
+              target="blank"
               className="block bg-primary text-black rounded-full p-4"
               s
             >
@@ -28,6 +29,7 @@ function Footer() {
             </a>
             <a
               href="https://www.instagram.com/tgmediaok/"
+              target="blank"
               className="block bg-primary text-black rounded-full p-4"
               s
             >
@@ -35,6 +37,7 @@ function Footer() {
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100063868782966"
+              target="blank"
               className="block bg-primary text-black rounded-full p-4"
               s
             >

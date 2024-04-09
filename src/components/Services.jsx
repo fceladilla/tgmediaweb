@@ -6,6 +6,8 @@ import {
   RiComputerFill,
   RiMacFill,
   RiArticleFill,
+  RiAccountBoxFill,
+  RiChat2Fill,
 } from "react-icons/ri";
 
 function Services() {
@@ -15,9 +17,30 @@ function Services() {
         <div className="flex flex-col gap-4">
           <h1 className="text-[40px] font-bold">Nuestros servicios</h1>
           <p className="text-[20px] text-gray-500">asdasdasdasddasfsf</p>
-          <form action="" className="w-full">
+          <form name="form" action="" className="w-full">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Name"
+                className="w-full bg-gray-300 py-4 pl-10 pr-36 rounded-xl outline-none mb-1"
+              />
+              <RiAccountBoxFill className="absolute top-1/2 -translate-y-1/2 left-2 text-gray-500 text-xl" />
+            </div>
+            <div className="relative">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Escriba su mensaje"
+                className="w-full bg-gray-300 py-4 pl-10 pr-36 rounded-xl outline-none "
+              ></textarea>
+              <RiChat2Fill className="absolute top-1/2 -translate-y-32 mt-2 left-2 text-gray-500 text-xl" />
+            </div>
+
             <div className="relative">
               <RiMailFill className="absolute top-1/2 -translate-y-1/2 left-2 text-gray-500 text-xl" />
+
               <input
                 type="text"
                 className="w-full bg-gray-300 py-4 pl-10 pr-36 rounded-xl outline-none "
