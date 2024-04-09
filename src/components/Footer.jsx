@@ -27,26 +27,22 @@ function Footer() {
               <RiWhatsappLine />
             </a>
             <a
-              href=""
+              href="https://www.instagram.com/tgmediaok/"
               className="block bg-primary text-black rounded-full p-4"
               s
             >
               <RiInstagramLine />
             </a>
             <a
-              href=""
+              href="https://www.facebook.com/profile.php?id=100063868782966"
               className="block bg-primary text-black rounded-full p-4"
               s
             >
               <RiFacebookLine />
             </a>
-            <a
-              href=""
-              className="block bg-primary text-black rounded-full p-4"
-              s
-            >
+            {/* <a href="" className="block bg-primary text-black rounded-full p-4">
               <RiTwitterLine />
-            </a>
+            </a> */}
           </nav>
         </div>
         <div className="mt-8">
